@@ -11,6 +11,7 @@ def read_gl(f_in):
 	glX = []
 
 	for line in lines:
+		line = line.strip('\r\n')
 		if ( len(line) ): # drop empty lines
 			tokens = string.split(line, ';')
 			if ( tokens[1] == 'qgl' ):

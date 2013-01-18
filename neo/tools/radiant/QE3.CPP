@@ -256,7 +256,7 @@ bool QE_LoadProject(char *projectfile) {
 
 /*
  =======================================================================================================================
-    QE_SaveProject £
+    QE_SaveProject
  =======================================================================================================================
  */
 bool QE_SaveProject(const char *pProjectFile) {
@@ -388,7 +388,7 @@ void QE_Init(void) {
 	g_qeglobals.d_showgrid = true;
 
 	/*
-	 * other stuff £
+	 * other stuff
 	 * FIXME: idMaterial Texture_Init (true); Cam_Init (); XY_Init ();
 	 */
 	Z_Init();
